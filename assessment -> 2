@@ -1,0 +1,57 @@
+ANSWER -> 1
+
+Enter first number
+2
+Enter second number and value for taking modulus
+3
+6
+output is: 0
+
+ANSWER -> 2
+
+Enter first number
+3
+Enter second number 
+2
+1 1
+
+ANSWER -> 3
+
+2
+3
+2
+
+ANSWER -> 4
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int h, r;
+    float pi = 3.1415;
+    cout << "Enter the value of height: ";
+    cin >> h;
+    cout << "Enter the value of radius: ";
+    cin >> r;
+    cout << "The volume of a the cylinder is: " << (pi * r * r * h);
+}
+
+ANSWER -> 5
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    char x, y;
+    cout << "Enter first character: ";
+    cin >> x;
+    cout << "Enter second character: ";
+    cin >> y;
+    int w = (int)x;
+    int z = (int)y;
+    cout << "Difference between two characters ASCII is: " << (w - z);
+}
+
+ANSWER -> 6
+
+49
