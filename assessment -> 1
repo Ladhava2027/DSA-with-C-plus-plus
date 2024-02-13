@@ -1,0 +1,57 @@
+ANSWER -> 1
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    // input physics and wallah in two different line
+    cout << "physics" << endl;
+    cout << "wallah";
+}
+
+ANSWER -> 2
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout<<5+5;
+}
+
+ANSWER -> 3
+
+size of integer datatype : 4 byte
+size of boolean datatype : 1 byte
+size of float datatype : 4 byte
+
+ANSWER -> 4
+
+int main() {
+int a = 4;
+int b = 5;
+a++, b--;
+cout << ++a << " " << b--;
+}
+
+output :
+6 4
+
+ANSWER -> 5
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int r = 10;
+    float pi = 3.1415;
+    float coc = (2 * pi * r); // here coc is stands for circumference of a circle
+    cout << coc;
+}
+
+ANSWER -> 6
+
+here 
+_FLOAT
+FLOAT
+can be a variable name
+
